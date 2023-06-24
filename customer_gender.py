@@ -13,12 +13,12 @@ female_count = gender_count.get('F',0)
 
 #draw a bar chart
 plt.figure(figsize=(6,6))
-plt.bar(['M','F'], [male_count,female_count], color=['blue','purple'])
+plt.bar(['M','F'], [male_count,female_count], color=['#F09B59','#1783DB'])
 
 #label each axis
-plt.xlabel('Gioi tinh')
-plt.ylabel('So luong')
-plt.title('So luong khach hang theo gioi tinh')
+plt.xlabel('Giới tính')
+plt.ylabel('Số lượng')
+plt.title('Số lượng khách hàng theo giới tính')
 
 plt.show()
 
